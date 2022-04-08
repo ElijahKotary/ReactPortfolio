@@ -1,0 +1,18 @@
+.auth-page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    // height if the nav bar is 84px with padding
+    height: calc(100vh - 84px);
+
+    .left-column {
+        // cover will shrink img to fit full picture
+        background-size: cover;
+    }
+
+    .right-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $offwhite;
+    }
+}
